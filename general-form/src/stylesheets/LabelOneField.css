@@ -1,0 +1,58 @@
+.one-field-container{
+  font-family:'Work Sans';
+  display: grid;
+  grid-template-columns: 90px 2fr;
+  padding: 15px;
+  align-items: center;
+  grid-gap: 15px;
+}
+
+.two-field-container{
+  font-family:'Work Sans';
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap:15px;
+}
+
+.three-field-container{
+  font-family:'Work Sans';
+  display: grid;
+  font-family:'Work Sans';
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  grid-gap:15px;
+}
+
+.box-date{
+  font-family:'Work Sans';
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  grid-gap:15px;
+}
+
+/* Mediaqueries*/
+
+/*Celular*/
+@media (max-width: 700px) {
+  .one-field-container, .two-field-container, .three-field-container{
+    display: block;
+  }
+
+  .box-date{
+    display: block;
+  }
+    
+}
+
+/*Tablet*/
+@media (min-width: 701px) and (max-width:1024px) {
+  .one-field-container, .two-field-container, .three-field-container{
+    display: block;
+  }
+
+  .box-date{
+    display: block;
+  }
+}
